@@ -7,3 +7,8 @@ def array_leaders(numbers)
   end
   leaders
 end
+
+# Codewars lessons: Use select and with index! Needs parallel assignment
+# def array_leaders(numbers)
+#   p numbers.select.with_index { |x, i| x > numbers[i + 1..-1].inject(0, :+) }
+# end
