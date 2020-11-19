@@ -12,3 +12,5 @@ end
     # for each number from 0 to half arr size, multiply first by last
 #   (0...arr.size/2).map { |i| arr[i] * arr[-i-1] } .sum
 # end
+
+hi there, Cathal speaking
